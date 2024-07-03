@@ -6,7 +6,7 @@
 
 body {
   background-color: var(--back-color);
-  font-family: var(--pageFont);
+  font-family: var(--pageFont) !important;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -49,6 +49,10 @@ p {
     width: 15%;
 }
 
+.nav {
+    margin-bottom: 10px;
+}
+
 .project {
     background: white;
     border-radius: 10px;
@@ -57,7 +61,7 @@ p {
 }
 
 .work-header,  .work-caption, .work-paragraph, .work-button {
-    font-family: "Lora", serif;
+    font-family: "Lora", serif !important;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
