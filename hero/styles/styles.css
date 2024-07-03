@@ -18,7 +18,9 @@ h1, h3, h6, p {
 }
 
 h1 {
+    display: block;
     font-size: 60px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -52,4 +54,26 @@ p {
     border-radius: 10px;
     margin: 20px;
     padding: 0px;
+}
+
+.work-header,  .work-caption, .work-paragraph, .work-button {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.work-button {
+    padding: 10px;  
+} 
+
+.work-caption {
+    display: block;
+    margin: 0 auto;
+}
+
+.work-image {
+    display: block;
+    margin: 0 auto;
 }
