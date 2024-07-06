@@ -53,12 +53,13 @@ p {
     width: 15%;
 }
 
-.contact-info {
-    display: block;
-    margin: 0 auto;
+#contact-info {
+    display: block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
 }
 
-.work-button {
+#work-button {
     display: block !important;
     margin: 0 auto !important;
 }
