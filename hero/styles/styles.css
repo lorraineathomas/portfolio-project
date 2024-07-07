@@ -86,7 +86,8 @@ p {
     margin: 0 auto;
 }
 
-#contact-page {
+.contact-page {
+    background-color: white !important;
     font-family: "Noto Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -101,4 +102,3 @@ p {
   font-weight: 500;
   font-style: normal;
 }
-
