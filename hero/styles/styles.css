@@ -4,6 +4,10 @@
     --text-color: aqua;
 }
 
+.nav-link:hover {
+    color: aqua !important;
+}
+
 body {
   background-color: var(--back-color);
   font-family: var(--pageFont) !important;
@@ -11,6 +15,10 @@ body {
   font-weight: 500;
   font-style: normal;
   margin-top: 30px;
+}
+
+.container {
+    padding-top: 35px !important;
 }
 
 div {
